@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#navi{
+	background-color: dodgerblue;
+	padding: 10px;
+}
+#logo{
+	width: 20%;
+	margin: 10px;
+}
+.link-sec{
+	float: right;
+}
+ul{
+	display: flex;
+	margin-top: -60px;
+}
+ul li{
+	list-style-type: none;
+	margin: 20px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+ul li:hover{
+	background-color: black;
+	border: 1px solid blue;
+}
+.sectionone{
+	height: 100vh;
+	background-image: url(../img/butterfly.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#heading{
+	font-size: 100px;
+	color: #f43d88
+}
+.sectiontwo{
+	padding: 20px
+}
+.stuffs{
+	text-align: center;
+	color: red;
+}
+.products{
+	display: flex;
+
+}
+.img{
+	width: 40%;
+}
+.phone{
+	margin: 10px;
+}
+.writeups{
+	display: flex;
+
+}
+.writeup{
+	margin: 10px;
+	background-color: red;
+	padding: 20px;
+	color: white;
+}
+.writeup:hover{
+	background-color: black;
+	color: white;
+}
+button{
+	background-color: orange;
+	border: none;
+	padding: 15px;
+	border-radius: 15px;
+}
+}
+.i11{
+	color: purple;
+}
+footer{
+	background-color: dodgerblue;
+	padding: 20px;
+}
+.foot{
+	color: #000;
+	text-align: center;
+}
+.buy-button{
+	display: block;
+	padding: 10px;
+	background-color: orange;
+	width: 50px;
+	height: 20px;
+	border-radius: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+.one{
+	height: 100vh;
+	background-image: url(../img/nature.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#offers{
+	font-size: 90px;
+	color: #000;
+}
+#items{
+	text-align: center;
+	color: #d33e8e;
+}
+.prods{
+	display: flex;
+}
+.apple{
+	margin: 60px;
+}
+.app{
+	width: 150px;
+	height: 110px;
+}
+.three{
+	display: flex;
+}
+.writtings{
+	display: flex;
+}
+.write{
+	margin: 40px;
+	padding: 20px;
+	background-color: #000;
+	color: #fff;
+}
+.write:hover{
+	background-color: #f4338a;
+	color: #45d3ff;
+}

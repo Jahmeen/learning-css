@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.body{
+	height: 100vh;
+	background-image: url(../img/nature.jpg);
+
+}
+img{
+	background-image: 
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	opacity: 0.8;
+}
+.container{
+	position: fixed;
+}
+.hi{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	color: #000;
+}
+.hello{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	color: dodgerblue;
+}
+.para{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: red;
+	font-size: 50px;
+}
+#para{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	color: dodgerblue;	
+}
+#center{
+	display: block;
+	margin: auto;
+}
+.center-div{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+.pg{
+	text-align: center;
+}
+.image{
+	float: none;
+}
+.child1{
+	width: 20%;
+	float: left;
+}
+.child2{
+	width: 80%;
+	float: right;
+}
+	.clear::after{
+		content: "";
+		clear: both;
+		display: block;
+	}
+.horse{
+	float: left;
+}
+.emeka:hover{
+	color: red;
+}
+.input:focus{
+	background: red;
+}
+
+.headings:hover span{
+	display: block;
+}
+.text{
+	color: yellow;
+	display: none;
+}
+/*.b::first-letter{
+	font-size: 40px;
+}*/
+.b::first-line{
+	color: red;	
+}
+.b::selection {
+  color: red;
+  background: yellow;
+}
+.form-control{
+	border: 2px solid red;
+	height: 50px;	
+}
+.form-control:hover, .form-control:focus{
+	background-color: red;
+	color: #fff;
+}
+
+/*friday form*/
+
+.fm{
+	text-align: center;
+}
+
+.inp{
+	border: 2px solid red;
+}
+.inp:hover, .inp:focus{
+	background-color: tomato;
+	color: #fff;
+}
+
+/*friday float*/
+
+.first{
+	width: 20%;
+	float: right;
+}
+.first::first-letter{
+	font-size: 50px;
+	color: red;
+}
+.ig{
+	width: 20%;
+	float: none;
+}
+.second{
+	width: 25%;
+}
+.ben:hover{
+	color: blue;
+}
+.second::first-line{
+	color: red;
+}
+.spn{
+	background-color: red;
+	color: green;
+	display: none;
+}
+.third:hover span{
+	display: block;
+}
+.overflow{
+	height: 100px;
+	border: 1px solid red;
+	overflow: auto;
+}

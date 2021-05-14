@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.one{
+	display: flex;
+}
+.para{
+	background-color: dodgerblue;
+	width: 25%;
+	padding: 15px;
+	margin: 20px;
+	text-decoration: underline;
+}
+.ara{
+	background-color: red;
+	width: 25%;
+	padding: 15px;
+	margin: 20px;
+	text-transform: uppercase;
+}
+.ra{
+	background-color: grey;
+	width: 25%;
+	padding: 15px;
+	margin: 20px;
+	text-decoration: overline;
+}
+.a{
+	background-color: yellow;
+	width: 25%;
+	padding: 15px;
+	margin: 20px;
+	text-decoration: overline;
+	text-decoration-color: #fff;
+}
+
+/*Practice*/

@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#nav{
+	background-color: tomato;
+	padding: 10px;
+}
+#logo{
+	width: 15%;
+	margin: 10px;	
+}
+.link-section{
+	float: right;
+}
+ul{
+	display: flex;
+	margin-top: -60px;
+}
+ul li{
+	list-style-type: none;
+	margin: 20px;
+
+}
+ul li:hover{
+	background-color: White;
+	border: 2px solid red;
+
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+.first-section{
+	height: 100vh;
+	background-image: url('../img/nature.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	padding: 80px;
+	color: white;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+}
+#h1{
+	font-size: 100px;	
+}
+#we-are-here{
+	font-size: 50px;
+	margin-left: 170px;
+}
+.second-section{
+	padding: 20px;
+	
+}
+.our-products{
+	text-align: center;
+	color: green
+
+}
+.all-products{
+	display: flex;
+}
+.product{
+	margin: 30px;
+}
+button{
+	background-color: orange;	
+	border: none;
+	padding: 20px;
+	border-radius: 12px;
+}
+.ph{
+	color: orange
+}
+footer{
+	background-color: tomato;
+	padding: 20px;
+}
+.footer-text{
+	color: white;
+	text-align: center;
+}
+/*Margin.htmll styling*/
+.first-div{
+	width: 500px;
+	height: auto;
+	margin: auto;	
+	margin-top: 20px;
+	background-color: red;
+	padding: 20px 20px 60px 10px;
+}
+.second-div{
+	background-color: grey;
+	width: 550px;
+	margin: auto;
+	margin: 20px;  
+	padding: 20px;  
+	border: 2px solid red;
+	/*outline: 20px dotted red;*/
+
+}
+.click-me{
+
+	margin: inherit;
+}
+.third-div{
+	background-color: purple;
+	margin: 10px;
+	color: white;
+	text-transform: uppercase;
+	text-align: justify;	
+	line-height: 40px;
+	text-decoration: overline;
+	text-indent: 50px;
+	/*letter-spacing: 30px;*/
+/*	white-space: nowrap;*/
+	text-shadow: 2px 2px  4px red;	
+
+
+}
+/*my margin*/
+.division{
+	display: flex;
+}
+.lorem{
+	background-color: dodgerblue;
+	width: 20%;
+	padding: 20px;
+}
+.para{
+	background-color: red;
+	width: 20%;
+	padding: 20px;
+}
+.graph{
+	background-color: tomato;
+	width: 20%;
+	padding: 20px;
+}
+.lor{
+	background-color: yellow;
+	width: 20%;
+	padding: 20px;
+}
+.rem{
+	background-color: green;
+	width: 20%;
+	padding: 20px;
+}
+.nav{
+	background-color: blue;
+	padding: 10px;
+}
+.logo{
+	width: 40px;
+	height: 20px;
+}

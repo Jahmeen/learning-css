@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#lists{
+	float: right;
+}
+#onenav{
+	background-color: tomato;
+	padding: 15px;
+}
+ul{
+	display: flex;
+	margin-top: -60px;
+	margin-right: 20px;
+}
+ul li{
+	list-style-type: none;
+	margin: 10px;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+ul li:hover{
+	background-color: #fff;
+	border: 2px solid yellow;
+}
+.one{
+	height: 100vh;
+	background-image: url("../img/butterfly.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#hd{
+	font-size: 90px;
+	color: red;
+}
+.two{
+	padding: 2px;
+}
+#h1{
+	background-color: #fff;
+	color: #ff4533;
+	text-align: center;
+}
+footer{
+	background-color: #000;
+	padding: 25px;
+}
+#text{
+	text-align: center;
+	color: #fff;
+}
+.van{
+	background-color: yellow;
+	padding: 10px;
+}
+.divtwo{
+	float: right;
+}
+#lis{
+	color: #000;
+}
+.listone{
+	margin: -80px;
+	margin-right: 20px;
+}
+.two2{
+	height: 100vh;
+	background-image: url("../img/nature.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#para{
+	font-size: 200px;
+	color: #ffe444;
+}
+.three3{
+	padding: 30px;
+}
+#stuffs{
+	text-align: center;
+}
+#pro{
+	display: flex;
+}
+#item{
+	padding: 20px;
+}
+button{
+	background-color: yellow;
+	padding: 5px;
+	text-decoration: none;
+}
+#ft{
+	color: yellow;
+	text-align: center;
+}
